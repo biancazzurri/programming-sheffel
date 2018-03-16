@@ -1,0 +1,15 @@
+---
+production:
+  aws_region: "eu-central-1"
+  profile_name: "default"
+  project_name: "programming_sheffel"
+  runtime: "python2.7"
+  s3_bucket: "sheffel"
+  apigateway_enabled: false
+  keep_warm: false
+  lambda_description: "programming sheffel image URL fetcher and static page creator"
+  timeout_seconds: 30
+  memory_size: 128
+  events:
+  - function: "main.build"
+    expression: "cron(* 0/12 * * ? *)"
