@@ -3,7 +3,7 @@ production:
   aws_region: "eu-central-1"
   profile_name: "default"
   project_name: "programming_sheffel"
-  runtime: "python2.7"
+  runtime: "python3.6.6"
   s3_bucket: "sheffel"
   apigateway_enabled: false
   keep_warm: false
