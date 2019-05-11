@@ -1,9 +1,9 @@
 ---
 production:
   aws_region: "eu-central-1"
-  profile_name: "default"
+  profile_name: "zappa"
   project_name: "programming_sheffel"
-  runtime: "python3.6.6"
+  runtime: "python3.6"
   s3_bucket: "sheffel"
   apigateway_enabled: false
   keep_warm: false
