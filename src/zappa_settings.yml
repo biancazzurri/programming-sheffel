@@ -12,4 +12,4 @@ production:
   memory_size: 128
   events:
   - function: "main.build"
-    expression: "cron(* 0/12 * * ? *)"
+    expression: "cron(* 0/12 1 * ? *)"
